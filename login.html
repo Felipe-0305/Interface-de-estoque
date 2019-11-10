@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Freelancer</title>
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="fontawesome-free-5.11.2-desktop/">
+
+</head>
+<body>
+    <div class="estrutura">
+        <div class="login">
+            <div class="topo">
+                <div class="introducao">
+                    <img src="./imagens/icons8-cadeado-2-26.png" alt="">
+                    <h1>login</h1>
+                </div>
+                    <p>entre com os dados corretamente para acessar o sistema:</p>
+            </div>
+            <form action="login.php" method="POST" autocomplete="off">
+                <label for="email" name="email">login</label>
+                <input type="text" name="textusuario" id="login" maxlength="40" required autofocus>
+                <label for="password">senha</label>
+                <input type="password" name="textpassword" id="senha" maxlength="50" required>
+                <button type="submit" value="ingresar" id="entrar" name="enviar">Entrar</button>
+            </form>
+        </div>
+    </div>
+    
+</body>

@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    max-width: 100%;
+    list-style: none;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.estrutura{
+    height: 100vh;
+}
+
+.topo{
+    background-color: black;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.logo a{
+    margin-left:  45px;
+    color: greenyellow;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.login{
+    padding: 20px;
+}
+
+.login a{
+    margin-right: 15px;
+    color: skyblue;
+    border: solid 1px ;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.login a:hover{
+    background-color: rgba(18, 18, 233, 0.548);
+
+}
+
+main{
+    display: flex;
+    overflow-y:  hidden;
+}
+
+.side-bar{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    background-color: #DCDCDC;
+    color: white;
+    height: 100vh;
+    overflow-y: scroll;
+    width: 250px;
+    overflow-x: hidden;
+    align-items: center;
+}
+.centro{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background: #F4F4F4;
+}
+
+::-webkit-scrollbar-thumb {
+    background: greenyellow;
+}
+
+.login input{
+    border: solid 1px greenyellow;
+    width: 190px;
+    height: 25px;
+    position: relative;
+    border-radius: 5px;
+    outline: none;
+}
+
+.login button{
+    width: 30px;
+    height: 25px;
+    background-color: mediumseagreen;
+    border:none;
+    cursor: pointer;
+    margin-right: 20px;
+
+}
+
+.side-bar img{
+    border-bottom: solid 1px greenyellow;
+    height: 150px;
+}
+
+.side-bar a{
+    border: solid 1px #F4F4F4;
+    padding: 10px 100%;
+    color:grey;
+}
+
+.side-bar a:hover{
+    background-color: rgba(198, 198, 199, 0.548);
+    transition: all 0.5s;
+}
+
+.p1{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 10PX;
+    border-bottom: solid 1px rgba(198, 198, 199, 1);
+}
+
+.p1 a{
+    color: black;
+    font-size: 18px;
+}
+
+.p2{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    padding: 15px;
+}
+
+.p2 img{
+    max-height: 20px;
+}
+
+.busca2{
+    display: flex;
+    align-items: center;
+    background-color: greenyellow;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.busca2 a{
+    color:grey;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th{
+    border: solid 1px greenyellow;
+    padding: 10px;
+}
+
+.tabela h2{
+    margin-bottom: 15px;
+    margin-left: 7px;
+    margin-top: 10px;
+    color: #00FF7F;
+}
+
+.tabela{
+    border-top: solid 1px rgba(198, 198, 199, 1);
+}
+
+.cadastro {
+    padding: 10px;
+}
+
+.cadastro input{
+    border: solid 1px black;
+    padding: 5px 1px;
+    outline: none;
+}
+
+#btt{
+    border: solid 2px #ff4040;
+    width: 40px;
+    margin-top: 5px;
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cadastro h1{
+    margin-bottom: 5px;
+    color: #00FF7F;
+}
+
+.t1{
+    background-color: yellowgreen;
+    border-bottom: solid 1px black;
+}
+
+td{
+    padding: 5px;
+    text-align: center;
+}
+
+.t2{
+    background-color: #cc0000;
+    border-bottom: solid 1px black;
+}
