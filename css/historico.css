@@ -129,6 +129,7 @@ main{
     justify-content: space-between;
     max-width: 100%;
     padding: 15px;
+    border-bottom: solid 1px rgba(198, 198, 199, 1);
 }
 
 .p2 img{
@@ -147,54 +148,20 @@ main{
     color:grey;
 }
 
+.tabela{
+    padding: 10px;
+    font-size: 20px;
+    color: #4169E1;
+}
+
 table{
     border-collapse: collapse;
     width: 100%;
 }
 
 th{
-    border: solid 1px greenyellow;
-    padding: 10px;
-}
-
-.tabela h2{
-    margin-bottom: 15px;
-    margin-left: 7px;
-    margin-top: 10px;
-    color: #4169E1;
-}
-
-.tabela{
-    border-top: solid 1px rgba(198, 198, 199, 1);
-}
-
-.cadastro {
-    padding: 10px;
-}
-
-.cadastro input{
     border: solid 1px black;
-    padding: 5px 1px;
-    outline: none;
-}
-
-#btt{
-    border: solid 2px #ff4040;
-    width: 40px;
-    margin-top: 5px;
-    background-color: transparent;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.cadastro h1{
-    margin-bottom: 5px;
-    color: #4169E1;
-}
-
-.t1{
-    background-color: yellowgreen;
-    border-bottom: solid 1px black;
+    padding: 10px;
 }
 
 td{
@@ -202,12 +169,7 @@ td{
     text-align: center;
 }
 
-.t2{
-    background-color: #cc0000;
-    border-bottom: solid 1px black;
-}
-
-td{
-    background-color: yellowgreen;
+.t1{
+    background-color: #4169E1;
     border-bottom: solid 1px black;
 }

@@ -1,0 +1,88 @@
+body{
+    font-size: 100%;
+    margin: 0;
+    padding: 0; 
+    background: linear-gradient(135deg, #5544ee, rgb(144, 125, 251));
+}
+
+.estrutura{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100vw;
+}
+
+.login{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: DarkTurquoise;
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.349);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#login, #senha{
+    background-color: transparent;
+    border: none;
+    height: 30px;
+    width: 270px;
+    margin-left: 15px;
+    font-size: 20px;
+    color: #ffffff;
+    border-bottom:solid 1px #ffffff;
+}
+
+label{
+    color: #ffffff;
+    margin-left: 15px;
+}
+
+#login:focus, #senha:focus{
+    outline: none;
+    border:none;
+    border-bottom:solid 1px #ffffff;
+}
+
+.introducao{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+h1{
+    color: #ffffff;
+}
+p{
+    color: #ffffff;
+    margin-left: 15px;
+}
+.introducao img{
+    margin: 15px 0px 0px 15px;
+    height: 50px;
+    width: 50px;
+}
+.introducao h1{
+    margin-right: 110px;
+}
+#entrar{
+    margin:13px 0px 0px 30px;
+    border: solid 1px transparent;
+    cursor: pointer;
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #DC143C;
+}
+#entrar:hover{
+    opacity: 0.8;
+}
+
+.logo{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 25px;
+}

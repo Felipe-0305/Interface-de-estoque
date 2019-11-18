@@ -25,7 +25,7 @@
             <div class="side-bar">
                 <img src="./imagens/imgperfil.jpg" alt="">
                 <a href="sistema.html">Inicio</a>
-                <a href="sistema.html">Informações</a>
+                <a href="loginadm.html">Historico</a>
             </div>
             <div class="centro">
                 <div class="p1">
@@ -34,7 +34,7 @@
                 </div>
                 <div class="p2">
                     <div class="data">
-                        <input type="date" name="data" id=""  value="2019-11-12">
+                        <input type="date" name="datai" id=""  value="2019-11-19">
                     </div>
                     <div class="busca2">
                         <img src="./imagens/14562.png" alt="">
@@ -44,24 +44,22 @@
                 <div class="tabela">
                     <table>
                     <div class="cadastro">
+                        <form action="">
                         <h1>NOVA MOVIMENTAÇÃO</h1>
                         <input type="text" name="nome" id="" placeholder="Seu nome">
-                        <select name="ESTADO">
-                                <option>Selecione</option>
-                                <option value="ent">Entrada</option>
-                                <option value="sai">Saida</option>
-                            </select>
                         <input type="text" name="produto" id="" placeholder="Nome do produto">
-                        <input type="number" name="quantidade" id="" placeholder="Quantidade">
-                        <input type="text" name="" id="" placeholder="data-devolução">
-                        <input type="text" name="Descriçao" id="" placeholder="Comentario">
-                        <input type="submit" value="OK" id="btt">
+                        <input type="text" name="estado" id="" placeholder="Entrada ou Saida">
+                        <input type="text" name="quantidade" id="" placeholder="Quantidade">
+                        <input type="text" name="calendario" id="" placeholder="data-devolução">
+                        <input type="text" name="descricao" id="" placeholder="Comentario">
+                        <button id="btt">OK</button>
+                    </form>
                     </div>
                     <h2>MOVIMENTAÇÕES</h2>
                         <thead>
                             <tr>
-                                <th>Data/Hora</th>
                                 <th>Entidade</th>
+                                <th>Data</th>
                                 <th>Tipo</th>
                                 <th>Produto</th>
                                 <th>Qtd/Movimen</th>
@@ -70,8 +68,8 @@
                         </thead>
                         <tbody class="t1">
                             <tr>
-                                <td>21/01/2019 14:40:18</td>
                                 <td>Ronei Marcos Silva</td>
+                                <td>21/01/2019</td>
                                 <td>Entrada</td>
                                 <td>Caneta Azul</td>
                                 <td>10</td>
@@ -80,18 +78,23 @@
                         </tbody>
                         <tbody class="t2">
                                 <tr>
-                                <td>30/02/2019 8:20:50</td>
                                 <td>Gabriela Sanches</td>
+                                <td>30/02/2019</td>
                                 <td>Saida</td>
                                 <td>Livro</td>
                                 <td>19</td>
                                 <td>Realização de atividade em sala</td>
                                 </tr>
                             </tbody>
+                        <tbody class="tbody">
+
+                        </tbody>
+                
                 </table>
                 </div>
             </div>
         </main>
     </section>
 </body>
+<script src="./JavaScript/codigo.js"></script>
 </html>
