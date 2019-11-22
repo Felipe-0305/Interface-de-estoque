@@ -45,8 +45,8 @@ function Entrevista(nome, produto, quantidade, calendario, descricao){
 function adicionar_dados(){
     event.preventDefault();
 
-    let nova_entrevista = new Entrevista (campo_nome.value, campo_produto.value,
-        campo_quantidade.value, campo_descricao.value, campo_calendario.value)
+    let nova_entrevista = new Entrevista (campo_nome.value, campo_calendario.value,campo_produto.value,
+        campo_quantidade.value, campo_descricao.value, )
         
     nova_entrevista.criar_linha_tabela();
     window.alert("Movimentação feita com sucesso!!")
