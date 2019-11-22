@@ -129,23 +129,14 @@ main{
     justify-content: space-between;
     max-width: 100%;
     padding: 15px;
+    font-size: 19px;
 }
 
 .p2 img{
     max-height: 20px;
 }
 
-.busca2{
-    display: flex;
-    align-items: center;
-    background-color: greenyellow;
-    padding: 3px;
-    border-radius: 5px;
-}
 
-.busca2 a{
-    color:grey;
-}
 
 table{
     border-collapse: collapse;
@@ -172,12 +163,25 @@ th{
     padding: 10px;
 }
 
-.cadastro input{
+.cadastro input,select{
     border: solid 1px black;
     padding: 5px 1px;
     outline: none;
+    width: 220px;
 }
 
+.d1,.d2{
+    background-color: #00FF00;
+    border-bottom: black;
+}
+
+.d3{
+    background-color: #ADFF2F;
+}
+
+.d4{
+    background-color: #e61919;
+}
 #btt{
     border: solid 2px #ff4040;
     width: 40px;

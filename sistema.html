@@ -15,7 +15,7 @@
                     <a href="index.html">IHC_ESTOQUE</a>
                 </div>
                 <div class="login">
-                    <input type="search" name="busca" id="" placeholder="Seacher">
+                    <input type="search" name="busca" id="" placeholder="Pesquise">
                     <button type="submit">></button>
                     <a href="index.html">Logout</a>
                 </div>
@@ -34,11 +34,7 @@
                 </div>
                 <div class="p2">
                     <div class="data">
-                        <input type="date" name="datai" id=""  value="2019-11-18">
-                    </div>
-                    <div class="busca2">
-                        <img src="./imagens/14562.png" alt="">
-                        <a href="index.html">Busca Avançada</a>
+                       <p> 25/11/2019</p>
                     </div>
                 </div>
                 <div class="tabela">
@@ -46,11 +42,16 @@
                     <div class="cadastro">
                         <form action="">
                         <h1>NOVA MOVIMENTAÇÃO</h1>
-                        <input type="text" name="nome" id="" placeholder="Seu nome">
-                        <input type="text" name="produto" id="" placeholder="Nome do produto">
-                        <input type="text" name="estado" id="" placeholder="Entrada ou Saida">
+                        <input type="text" name="nome" id="" value="Marcos Bião">
+                        <select name="produto">
+                            <option>Selecione</option>
+                            <option class="d1" value="cone">cone</option>
+                            <option class="d2" value="massageador">massageador</option>
+                            <option class="d3" value="bola de massagem">bola de massagem</option>
+                            <option class="d4" value="cochonete">cochonete</option>
+                        </select>
                         <input type="text" name="quantidade" id="" placeholder="Quantidade">
-                        <input type="text" name="calendario" id="" placeholder="data-devolução">
+                        <input type="date" name="calendario" id="" placeholder="data de retirada">
                         <input type="text" name="descricao" id="" placeholder="Comentario">
                         <button id="btt">OK</button>
                     </form>
@@ -60,7 +61,6 @@
                             <tr>
                                 <th>Entidade</th>
                                 <th>Data</th>
-                                <th>Tipo</th>
                                 <th>Produto</th>
                                 <th>Qtd/Movimen</th>
                                 <th>Comentario</th>
@@ -68,9 +68,8 @@
                         </thead>
                         <tbody class="t1">
                             <tr>
-                                <td>Ronei Marcos Silva</td>
-                                <td>21/01/2019</td>
-                                <td>Entrada</td>
+                                <td>Marcos Bião</td>
+                                <td>21-01-2019</td>
                                 <td>Caneta Azul</td>
                                 <td>10</td>
                                 <td>Devolvendo depois da atividade em sala</td>
@@ -78,9 +77,8 @@
                         </tbody>
                         <tbody class="t2">
                                 <tr>
-                                <td>Gabriela Sanches</td>
-                                <td>30/02/2019</td>
-                                <td>Saida</td>
+                                <td>Marcos Bião</td>
+                                <td>30-02-2019</td>
                                 <td>Livro</td>
                                 <td>19</td>
                                 <td>Realização de atividade em sala</td>
