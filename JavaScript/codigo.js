@@ -44,12 +44,20 @@ function Entrevista(nome, produto, quantidade, calendario, descricao){
 
 function adicionar_dados(){
     event.preventDefault();
-
-    let nova_entrevista = new Entrevista (campo_nome.value, campo_calendario.value,campo_produto.value,
-        campo_quantidade.value, campo_descricao.value, )
-        
-    nova_entrevista.criar_linha_tabela();
-    window.alert("Movimentação feita com sucesso!!")
+    if(campo_produto.value === "cochonete"){
+        window.alert("Produto Esgotado!!")
+    }else{
+        let nova_entrevista = new Entrevista (campo_nome.value, campo_calendario.value,campo_produto.value,
+            campo_quantidade.value, campo_descricao.value, )
+            
+        nova_entrevista.criar_linha_tabela();
+        window.alert("Movimentação feita com sucesso!!")
+    
+    }
+    campo_produto.value = 'Selecione';
+    campo_calendario.value = '';
+    campo_quantidade.value = '';
+    campo_descricao.value = '';
 }
 
 botao_adicionar.addEventListener('click', adicionar_dados)

@@ -144,7 +144,7 @@ table{
 }
 
 th{
-    border: solid 1px greenyellow;
+    border: solid 1px black;
     padding: 10px;
 }
 
@@ -171,16 +171,16 @@ th{
 }
 
 .d1,.d2{
-    background-color: #00FF00;
+    background-color: #32CD32;
     border-bottom: black;
 }
 
 .d3{
-    background-color: #ADFF2F;
+    background-color: #FFD700;
 }
 
 .d4{
-    background-color: #e61919;
+    background-color: grey;
 }
 #btt{
     border: solid 2px #ff4040;
@@ -212,6 +212,6 @@ td{
 }
 
 td{
-    background-color: yellowgreen;
+    background-color: #ADD8E6;
     border-bottom: solid 1px black;
 }
